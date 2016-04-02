@@ -6,8 +6,10 @@ def shout(string)
   string.upcase
 end
 
+# will collect the word and put it in an array num times
 def repeat(word, num = 2)
   num.times.collect { word }.join(' ')
+
 end
 
 
