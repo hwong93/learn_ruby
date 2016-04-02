@@ -6,9 +6,8 @@ def shout(string)
   string.upcase
 end
 
-def repeat( word, options = {} )
-  num = options[ :num ] ||= 2
-  ( (word + " ") * num ).strip
+def repeat(word, num = 2)
+  num.times.collect { word }.join(' ')
 end
 
 
