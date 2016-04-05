@@ -81,7 +81,7 @@ class TestTemperature < MiniTest::Test
     #
     # Person.what_am_i # => "I am a person."
   end
-
+  #
   def test_in_fahrenheit
     assert_equal 50, Temperature.in_fahrenheit(50).to_fahrenheit
     assert_equal 10, Temperature.in_fahrenheit(50).to_celsius
@@ -120,8 +120,8 @@ class TestTemperature < MiniTest::Test
   #
   # 1. Fill in the tests below, so that they test for two class methods – ftoc and ctof
   # 2. Refactor the rest of your code so it calls these two methods when appropriate
-
+  #
   # utility class methods
-
+  #
   # def test_.....
 end
